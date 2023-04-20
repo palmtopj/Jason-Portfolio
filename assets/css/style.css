@@ -1,9 +1,13 @@
 section {
-    background: blue;
+    background: grey;
     text-align: center;
 }
 
 .card {
     background: red;
     text-align: center;
+}
+
+img {
+    width: 400px;
 }
