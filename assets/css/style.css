@@ -3,19 +3,17 @@
         display: flex;
     }
 }
-    
-}
+
 
 :root {
-    --body-color: #a87676;
+    --body-color: #ebcc42;
     --box-color: rgb(255, 255, 255);
     --text-color: #010d1a;
     --card-color: rgb(95, 95, 192);
     --section-color: orange;
     --projects-color: rgb(170, 87, 87);
-    --about-color: rgb(88, 146, 102);
-    --contact-color: rgb(88, 169, 207); 
-    
+    --about-color: rgb(88, 146, 102);   
+    --contact-color: rgb(88, 146, 146); 
   }
 
 body {
@@ -48,7 +46,7 @@ section {
     background-image: ('.assets/images/about-me.jpg');
     background-size: cover;
     background-position: center;
-    /* background-color: var(--about-color); */
+    background-color: var(--about-color);
     padding: 15px;
     margin: 15px;
     border-radius: 15px;
