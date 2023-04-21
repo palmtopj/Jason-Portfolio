@@ -1,13 +1,86 @@
+:root {
+    --body-color: #a87676;
+    --box-color: rgb(255, 255, 255);
+    --text-color: #010d1a;
+    --card-color: rgb(95, 95, 192);
+    --section-color: orange;
+    --projects-color: rgb(170, 87, 87);
+    --about-color: rgb(88, 146, 102);
+    --contact-color: rgb(88, 169, 207); 
+    
+  }
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--body-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
 section {
-    background: grey;
+    display: flex;
+    flex-basis:100%
+    justify-content: center;
+    background: var(--section-color);
     text-align: center;
 }
 
+#about{
+    display: flex;
+    flex-basis:20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--about-color);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+#projects{
+    display: flex;
+    flex-basis:50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--projects-color);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+#contact {
+    display: flex;
+    flex-basis:20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--contact-color);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+
+
 .card {
-    background: red;
-    text-align: center;
+    background-color: var(--projects-color);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 10px black; */
+    
 }
 
 img {
     width: 400px;
 }
+
