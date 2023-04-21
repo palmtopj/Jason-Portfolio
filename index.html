@@ -8,20 +8,6 @@
     <title>Jason's Portfolio</title>
 </head>
 <body>
-    <section id="projects" class="portfolio-section">
-        <h2>Projects</h2>
-        <div class="card" id="project-card">
-            <h3>Watch Show</h3>
-            <img src="./assets/images/recentScreenshot.png" alt="Watch Show Sample Screen">
-            <p> 
-                Blurb - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quisquam, quod.
-            </p>
-        </div> 
-        <!-- <div class="card" id="project-card">
-            <h3>Project Name 2</h3>
-        </div>  -->
-    </section>
     <section id="about" class="portfolio-section">
         <h2>About Me</h2>
         <p>
@@ -29,10 +15,25 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum modi distinctio quis tempore molestias reiciendis qui, sunt at sit hic earum, similique placeat nihil nisi, dicta facilis voluptate. Iusto, animi?
         </p>
     </section>
+
+    <section id="projects" class="portfolio-section" div class="flex-container">
+        <h2>Jason's Projects</h2>
+        <div class="card" id="project-card">
+            <h3>Watch Show</h3>
+            <img src="./assets/images/recentScreenshot.png" alt="Watch Show Sample Screen">
+            <p> 
+                Project can be found at: <a href="https://palmtopj.github.io/watch-show/">Watch Show</a>
+                <span class="project-links">
+                    <a href="#">GitHub Repo</a>
+                </span>
+            </p>
+        </div> 
+       </section>
+   
     <section id="contact" class="portfolio-section">
         <h2>Contact</h2>
         <div id="contact-info">palmtopj@uw.edu</div>
-        <article id="weather"> Weather API output</article>
+        <!-- <article id="weather"> Weather API output</article> -->
     </section>
     <script src="./assets/js/script.js"></script>
 </body>
