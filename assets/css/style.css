@@ -1,3 +1,11 @@
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+    }
+}
+    
+}
+
 :root {
     --body-color: #a87676;
     --box-color: rgb(255, 255, 255);
@@ -24,19 +32,23 @@ body {
 
 section {
     display: flex;
-    flex-basis:100%
+    flex-basis:25%;
     justify-content: center;
     background: var(--section-color);
-    text-align: center;
+    text-align: center; 
 }
 
 #about{
     display: flex;
-    flex-basis:20%;
+    /* flex-basis:20%; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--about-color);
+/* background image doesn't work */
+    background-image: ('.assets/images/about-me.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-color: var(--about-color); */
     padding: 15px;
     margin: 15px;
     border-radius: 15px;
@@ -45,7 +57,7 @@ section {
 
 #projects{
     display: flex;
-    flex-basis:50%;
+    /* flex-basis:50%; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -58,10 +70,11 @@ section {
 
 #contact {
     display: flex;
-    flex-basis:20%;
+    /* flex-basis:20%; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url;
     background-color: var(--contact-color);
     padding: 15px;
     margin: 15px;
