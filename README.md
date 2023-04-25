@@ -1,8 +1,16 @@
-# Jason-Portfolio
- This should include what the app is for, 
- how to use the app, 
- how to install it, 
- how to report issues, and 
- how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
+Jason-Portfolio
 
-You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
+https://github.com/palmtopj/Jason-Portfolio.git
+https://palmtopj.github.io/Jason-Portfolio/
+![Image](./assets/images/jason-portfolio.png)
+
+A place to showcase my projects and skills.
+
+Languages used html, CSS, JS
+
+ToDo:
+add carasoul of project cards - currently only one
+add images to backgrounds
+
+Note:
+I am using this for myself only but I welcome comments and tips!
